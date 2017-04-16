@@ -37,6 +37,11 @@ testem.log
 /e2e/*.js
 /e2e/*.map
 
+# Ignores compiled TypeScript files
+**/app/**/*.map
+**/app/**/*.js
+
+
 # System Files
 .DS_Store
 Thumbs.db
